@@ -3,48 +3,19 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Button from '../components/Button'
 import Gallery from '../components/Gallery'
+import Header from '../components/Header'
 
 export default function Page() {
   const handleClick = () => {
-    alert('Fuk u dawg');
+    alert('Fuk u dawg')
   }
 
   return (
     // Main Container
     <main className="flex min-h-screen flex-col items-center justify-center bg-white">
 
-      {/* Navigation Bar */}
-      <nav className="bg-white w-full">
-        <div className="container mx-auto flex justify-center items-center">
-          {/*Navigation Links Container */}
-          <div className="container mx-auto flex justify-start items-center">
-          {/* Navigation Links */}
-            <ul className="flex space-x-6">
-              <li><Link href="/" className="text-gray-800 hover:text-blue-500">Home</Link></li>
-              <li><Link href="/about" className="text-gray-800 hover:text-blue-500">About</Link></li>
-              <li><Link href="/services" className="text-gray-800 hover:text-blue-500">Services</Link></li>
-              <li><Link href="/contact" className="text-gray-800 hover:text-blue-500">Contact</Link></li>
-            </ul>
-          </div>
-
-          {/* Logo Container */}
-          <div className="container mx-auto flex justify-center items-center">
-              {/* Logo with Link to Home */}
-            <Link href="/">
-            <Image
-              src="/logo.png"       
-              alt="Logo"            
-              width={140}           
-              height={120}   
-              priority              
-            />
-          </Link>
-          </div>
-
-          <div className="container mx-auto flex justify-end items-center"></div>
-        </div>
-      </nav>
-
+      {/* Header Component */}
+      <Header />
         
 
       {/* Hero Section */}
