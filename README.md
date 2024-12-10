@@ -5,3 +5,6 @@ Added foundation and structural code to modify later on <br />
 12/1/2024 <br />
 Deleted additional boilerplate files <br />
 Modified front page nav section to match Wordpress Site's + custom styling <br />
+
+12/9/2024 <br />
+Turned Header section into Reusable TSX component <br />
