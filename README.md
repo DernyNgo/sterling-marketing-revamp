@@ -8,3 +8,8 @@ Modified front page nav section to match Wordpress Site's + custom styling <br /
 
 12/9/2024 <br />
 Turned Header section into Reusable TSX component <br />
+
+12/17/2024 <br />
+Fixed alignment of Header to match original
+Created First Hero Section
+Imported Poppins as default font family
