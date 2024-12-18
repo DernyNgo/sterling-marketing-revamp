@@ -12,7 +12,7 @@ export default function Page() {
 
   return (
     // Main Container
-    <main className="flex min-h-screen flex-col items-center justify-center bg-white mx-12">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-white">
 
       {/* Header Component */}
       <Header />
@@ -20,9 +20,9 @@ export default function Page() {
 
       {/* First Hero Section */}
       <div className="container flex flex-row max-w-full mt-2 mb-2">
-        <section className="container flex flex-col w-1/2">
+        <section className="container flex flex-col w-1/2 mt-4 mb-2 mx-12">
 
-          <h1 className="flex text-7xl font-black text-center mb-8">
+          <h1 className="font-sans flex text-7xl font-black text-center mb-8">
             <strong>Sterling</strong>
           </h1>
 
@@ -30,11 +30,27 @@ export default function Page() {
             Adjective
           </p>
 
-          <p className="container flex items-center justify-center text-lg text-center mt-4">
+          <p className="font-sans container flex items-center justify-center text-lg text-center mt-4">
           "(of a person or their work, efforts, or qualities) excellent or valuable."
           </p>
+          
         </section>
       
+      </div>
+
+      {/* Call to Action Section */}
+      <div className="container flex flex-col max-w-full mt-4 mb-4 bg-[hsl(240,2.6%,22.5%)] pt-16 pb-16">
+        <h2 className="font-sans text-5xl text-white text-center mt-2 mb-2">Marketing Services.</h2>
+        <h2 className="font-sans text-5xl text-white text-center mt-2 mb-4">Simplified.</h2>
+        <p className="max-w-screen-md mx-auto text-lg text-white text-center mb-8 mt-4">
+        Dealing with difficult and confusing individuals or agencies should come to an end. 
+        At Sterling Marketing, we provide you with consultation and strategy upfront- All you need to do is contact us, brief us about your business, and we’ll handle it from there. 
+        </p>
+
+        {/* Button Component */}
+        <div className="font-sans flex justify-center items-center">
+          <Button onClick={handleClick} label="Let's Build!" />
+        </div>
       </div>
 
       {/* Gallery Section */}

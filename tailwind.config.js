@@ -15,6 +15,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
+        esteban: ['Esteban', 'serif'],
       }
     },
   },
