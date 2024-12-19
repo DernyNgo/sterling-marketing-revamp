@@ -18,3 +18,5 @@ Imported Poppins as default font family <br />
 Fixed README formatting (oops) <br />
 Added Esteban font, set Poppins to sans <br />
 Tweaked some styling to match the original site <br />
+More style changes <br />
+Added metadata to match old site <br />

@@ -26,7 +26,7 @@ export default function Page() {
             <strong>Sterling</strong>
           </h1>
 
-          <p className="flex items-center justify-start font-style: italic text-center text-1xl">
+          <p className="flex items-center justify-start font-style: italic text-center text-lg text-[hsl(42.85714286,3.86740331%,64.50980392%)]">
             Adjective
           </p>
 
@@ -42,9 +42,9 @@ export default function Page() {
       <div className="container flex flex-col max-w-full mt-4 mb-4 bg-[hsl(240,2.6%,22.5%)] pt-16 pb-16">
         <h2 className="font-sans text-5xl text-white text-center mt-2 mb-2">Marketing Services.</h2>
         <h2 className="font-sans text-5xl text-white text-center mt-2 mb-4">Simplified.</h2>
-        <p className="max-w-screen-md mx-auto text-lg text-white text-center mb-8 mt-4">
-        Dealing with difficult and confusing individuals or agencies should come to an end. 
-        At Sterling Marketing, we provide you with consultation and strategy upfront- All you need to do is contact us, brief us about your business, and we’ll handle it from there. 
+        <p className="max-w-screen-md mx-auto text-lg text-white text-center mb-8 mt-4"> 
+        At Sterling Marketing, we provide you with consultation and strategy upfront.
+        All you need to do is contact us, brief us about your business, and we’ll handle it from there. 
         </p>
 
         {/* Button Component */}
@@ -53,8 +53,14 @@ export default function Page() {
         </div>
       </div>
 
+      {/* Section Break */}
+      <div className="container flex flex-col max-w-full font-sans text-lg mt-4">
+        <p className="text-center mx-auto">
+          Click on any of the projects for a briefing.
+        </p>
+      </div>
+
       {/* Gallery Section */}
-      <h1 className="text-4xl font-bold mb-8">Previous Client Work</h1>
       <Gallery />
 
       {/* Footer Section */}
