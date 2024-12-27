@@ -20,3 +20,9 @@ Added Esteban font, set Poppins to sans <br />
 Tweaked some styling to match the original site <br />
 More style changes <br />
 Added metadata to match old site <br />
+
+12/27/2024 <br />
+Fixed Gallery <br />
+Loaded data from json file into grids <br />
+Adjusted header icon to closely match original site's height/width <br />
+Began planning for Modal component <br />

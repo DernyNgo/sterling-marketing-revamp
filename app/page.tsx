@@ -2,8 +2,9 @@
 //import Image from 'next/image'
 //import Link from 'next/link'
 import Button from '../components/Button'
-import Gallery from '../components/Gallery'
+//import Modal from '../components/Modal'
 import Header from '../components/Header'
+import Gallery from '../components/Gallery'
 
 export default function Page() {
   const handleClick = () => {
@@ -12,12 +13,9 @@ export default function Page() {
 
   return (
     // Main Container
-    <main className="flex min-h-screen flex-col items-center justify-center bg-white">
-
+    (<main className="flex min-h-screen flex-col items-center justify-center bg-white">
       {/* Header Component */}
       <Header />
-        
-
       {/* First Hero Section */}
       <div className="container flex flex-row max-w-full mt-2 mb-2">
         <section className="container flex flex-col w-1/2 mt-4 mb-2 mx-12">
@@ -35,9 +33,7 @@ export default function Page() {
           </p>
           
         </section>
-      
       </div>
-
       {/* Call to Action Section */}
       <div className="container flex flex-col max-w-full mt-4 mb-4 bg-[hsl(240,2.6%,22.5%)] pt-16 pb-16">
         <h2 className="font-sans text-5xl text-white text-center mt-2 mb-2">Marketing Services.</h2>
@@ -52,24 +48,21 @@ export default function Page() {
           <Button onClick={handleClick} label="Let's Build!" />
         </div>
       </div>
-
       {/* Section Break */}
       <div className="container flex flex-col max-w-full font-sans text-lg mt-4">
         <p className="text-center mx-auto">
           Click on any of the projects for a briefing.
         </p>
       </div>
-
+      {/* Modal Section */}
       {/* Gallery Section */}
       <Gallery />
-
       {/* Footer Section */}
       <footer className="bg-white text-black w-full py-2">
         <div className="container mx-auto text-center">
           <p>&copy; {new Date().getFullYear()} Sterling Marketing</p>
         </div>
       </footer>
-
-    </main>
-  )
+    </main>)
+  );
 } 

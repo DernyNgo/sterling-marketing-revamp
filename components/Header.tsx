@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Header: React.FC = () => {
@@ -22,8 +22,8 @@ const Header: React.FC = () => {
               <Image
                 src="/logo.png"
                 alt="Logo"
-                width={130}
-                height={110}
+                width={135}
+                height={135}
                 priority
               />
             </Link>
