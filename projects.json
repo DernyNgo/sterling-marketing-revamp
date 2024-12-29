@@ -2,6 +2,8 @@
     {
         "id": 1,
         "title": "The Bullies Anonymous",
+        "description": "From point A to Z development. With The Bullies Anonymous, I've done both the physical and digital work. I started this brand as a passion project, to showcase my love for Bully breeds and to provide the community with merchandise to represent their prized pups.",
+        "keywords": ["Branding", "Front End Development", "SEO", "Advertising", "Design", "Photography", "Copywriting", "Screen-printing", "Embroidery"],
         "thumbnail": "/images/projects/thumbnails/TBAthumbnail.jpg",
         "images": [
             "/images/projects/TBA/TBA1.jpg", 
@@ -14,24 +16,28 @@
     {
         "id": 2,
         "title": "Shijin Vapor",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/SVthumbnail.jpg",
         "images": []
     },
     {
         "id": 3,
         "title": "Honey Dip",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/HDthumbnail.jpg",
         "images": []
     },
     {
         "id": 5,
         "title": "Juice Roll Upz",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/JRUthumbnail.jpg",
         "images": []
     },
     {
         "id": 4,
         "title": "Out the Cuts Prints",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/OTCPthumbnail.jpg",
         "images": []
     },
@@ -44,30 +50,35 @@
     {
         "id": 7,
         "title": "Shell Protocol",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/Shellthumbnail.jpg",
         "images": []
     },
     {
         "id": 8,
         "title": "Milksud",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/MSthumbnail.jpg",
         "images": []
     },
     {
         "id": 9,
         "title": "Cafe Da Lat",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/CDLthumbnail.jpg",
         "images": []
     },
     {
         "id": 10,
         "title": "TempoLab",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/TLthumbnail.jpg",
         "images": []
     },
     {
         "id": 11,
         "title": "Beans & Croydon",
+        "description": "Test description",
         "thumbnail": "/images/projects/thumbnails/Beansthumbnail.jpg",
         "images": []
     }

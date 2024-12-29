@@ -55,6 +55,7 @@ export default function Page() {
         </p>
       </div>
       {/* Modal Section */}
+      
       {/* Gallery Section */}
       <Gallery />
       {/* Footer Section */}

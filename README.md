@@ -26,3 +26,9 @@ Fixed Gallery <br />
 Loaded data from json file into grids <br />
 Adjusted header icon to closely match original site's height/width <br />
 Began planning for Modal component <br />
+
+12/29/2024
+Completed Gallery Component <br />
+Added Keywords section into JSON to display in Modal <br />
+Finished Modal functionality <br />
+Life is good so far <br />
