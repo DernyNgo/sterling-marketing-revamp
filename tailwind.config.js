@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",       // Ensure it scans files in the `app/` directory
-    "./components/**/*.{js,ts,jsx,tsx}", // Add `components/` directory if using components
+    "./app/**/*.{js,ts,jsx,tsx}", 
+    "./pages/**/*.{js,ts,jsx,tsx},",      
+    "./components/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
     screens: {

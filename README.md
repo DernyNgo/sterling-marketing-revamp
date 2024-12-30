@@ -32,3 +32,8 @@ Completed Gallery Component <br />
 Added Keywords section into JSON to display in Modal <br />
 Finished Modal functionality <br />
 Life is good so far <br />
+
+12/30/2024 <br />
+Finished Modal Functionality + Lightbox <br />
+Added all data into JSON file <br />
+Began working on Services page <br />

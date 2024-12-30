@@ -15,71 +15,130 @@
     },
     {
         "id": 2,
-        "title": "Shijin Vapor",
-        "description": "Test description",
-        "thumbnail": "/images/projects/thumbnails/SVthumbnail.jpg",
-        "images": []
+        "title": "Beans & Croydon",
+        "description": "The first agency I’ve worked for. This place was a stepping stone for me into real-world professionalism in many aspects. Attached below are a few notable projects that we’ve worked on as a team.  My roles specifically were:",
+        "keywords": ["Ad Direction", "Influencer Management", "Vendor Management", "Ad Printing and Distribution", "Event Coordination", "Event Planning + Execution", "Event Staging", "Live Content & Media Coverage"],
+        "thumbnail": "/images/projects/thumbnails/Beansthumbnail.jpg",
+        "images": [
+            "/images/projects/Beans/Beans1.png",
+            "/images/projects/Beans/Beans2.jpg",
+            "/images/projects/Beans/Beans3.jpg",
+            "/images/projects/Beans/Beans4.png",
+            "/images/projects/Beans/Beans5.png",
+            "/images/projects/Beans/Beans6.png",
+            "/images/projects/Beans/Beans7.png"
+        ]
     },
     {
         "id": 3,
-        "title": "Honey Dip",
-        "description": "Test description",
-        "thumbnail": "/images/projects/thumbnails/HDthumbnail.jpg",
-        "images": []
-    },
-    {
-        "id": 5,
         "title": "Juice Roll Upz",
-        "description": "Test description",
+        "description": "Working here was without a doubt the most challenging environment I’ve had up to date. As their marketing director, I’ve worn many different hats, and my tasks included:",
+        "keywords": ["Social media co-ordination", "Social media management (Hootsuite)", "Copywriting", "Influencer Outreach",  "Creation and Management of Influencer Spreadsheets", "In-house photography", "Live media coverage", "Event promotion", "Email Campaign Strategization", "B2B & B2C Campaigns", "E-commerce Front End Development (Shopify)", "Sales"],
         "thumbnail": "/images/projects/thumbnails/JRUthumbnail.jpg",
-        "images": []
+        "images": [
+            "/images/projects/JRU/JRU1.jpg",
+            "/images/projects/JRU/JRU2.jpg",
+            "/images/projects/JRU/JRU3.jpg",
+            "/images/projects/JRU/JRU4.jpg",
+            "/images/projects/JRU/JRU5.jpg",
+            "/images/projects/JRU/JRU6.jpg",
+            "/images/projects/JRU/JRU7.jpg"
+        ]
     },
     {
         "id": 4,
         "title": "Out the Cuts Prints",
-        "description": "Test description",
+        "description": "OTCPrints was built as an online printing solutions company catering to SMBs during the early stages of the pandemic. My roles consisted of:",
+        "keywords": ["Market Research", "Branding Strategies", "Front End Development", "SEO", "Copywriting", "Content Marketing", "Customer Acquisition", "Referral/Lead Generation + Sales"],
         "thumbnail": "/images/projects/thumbnails/OTCPthumbnail.jpg",
-        "images": []
+        "images": [
+            "/images/projects/OTCP/OTCP1.jpg",
+            "/images/projects/OTCP/OTCP2.jpg",
+            "/images/projects/OTCP/OTCP3.jpg",
+            "/images/projects/OTCP/OTCP4.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Honey Dip",
+        "description": "Honey Dip was founded in collaboration between the Juice Crate team and Angie Leah. My role specifically were:",
+        "keywords": ["B2B & B2C Outreach", "Lead generation and Sales", "Content Creation"],
+        "thumbnail": "/images/projects/thumbnails/HDthumbnail.jpg",
+        "images": [
+            "/images/projects/HD/HD1.jpg", 
+            "/images/projects/HD/HD2.jpg", 
+            "/images/projects/HD/HD3.jpg"
+        ]
     },
     {
         "id": 6,
-        "title": "Atlast Online",
-        "thumbnail": "/images/projects/thumbnails/AOthumbnail.jpg",
-        "images": []
+        "title": "Shijin Vapor",
+        "description": "I had the pleasure of managing a few tasks at Shijin Vapor, including but not limited to:",
+        "keywords": ["Social Media Management (10+ Brands)", "Influencer outreach and management", "Content Scheduling via Hootsuite", "Cross-functional collaboration with marketing/sales departments", "In-house photography", "Management of Outsourced Photographers"],
+        "thumbnail": "/images/projects/thumbnails/SVthumbnail.jpg",
+        "images": [
+            "/images/projects/SV/SV1.jpg", 
+            "/images/projects/SV/SV2.jpg", 
+            "/images/projects/SV/SV3.png"            
+        ]
     },
     {
         "id": 7,
-        "title": "Shell Protocol",
-        "description": "Test description",
-        "thumbnail": "/images/projects/thumbnails/Shellthumbnail.jpg",
-        "images": []
+        "title": "Atlast Online",
+        "description": "From a barebones perspective, AtLast was a [start-up] project catered to those without traditional credentials who wished to enter the professional workforce in their desired fields of work. The scope of work entailed everything through and through; from branding to UI/UX design, to marketing and everything in between. I had the pleasure of working with the Founder who served as an iOS Developer. My responsibilities included:",
+        "keywords": ["Copywriting", "Branding", "Market Research", "Front End Development", "Drag & Drop Builder (Elementor)", "SEO"],
+        "thumbnail": "/images/projects/thumbnails/AOthumbnail.jpg",
+        "images": [
+            "/images/projects/AO/AO1.png",
+            "/images/projects/AO/AO2.png",
+            "/images/projects/AO/AO3.png",
+            "/images/projects/AO/AO4.png"
+        ]
     },
     {
         "id": 8,
-        "title": "Milksud",
-        "description": "Test description",
-        "thumbnail": "/images/projects/thumbnails/MSthumbnail.jpg",
-        "images": []
+        "title": "Shell Protocol",
+        "description": "This was my foot-in-the-door for tech start-up culture. It was exciting, fast-paced, challenging, and rewarding. Because of IP, I'm unable to showcase the pitch deck, however Kenny and his team were able to acquire multiple rounds of funding. My duties included:",
+        "keywords": ["Website Revamp", "Front End Development", "Rebranding", "Copywriting", "Marketing Strategizing", "Branding", "v1.0 Pitch Deck Creation"],
+        "thumbnail": "/images/projects/thumbnails/Shellthumbnail.jpg",
+        "images": [
+            "/images/projects/SP/SP1.png",
+            "/images/projects/SP/SP2.jpeg"
+        ]
     },
     {
         "id": 9,
-        "title": "Cafe Da Lat",
-        "description": "Test description",
-        "thumbnail": "/images/projects/thumbnails/CDLthumbnail.jpg",
-        "images": []
+        "title": "Milksud",
+        "description": " I was tasked with finding and mediating the transaction between the store owner and future investor. I was primarily tasked with:",
+        "keywords": ["Market Research", "Monthly Logistical Planning", "Marketing Plan (30-60-90)", "Seed Funding Approval", "Property and Commercial Real Estate Research"],
+        "thumbnail": "/images/projects/thumbnails/MSthumbnail.jpg",
+        "images": [
+            "/images/projects/MS/MS1.jpg",
+            "/images/projects/MS/MS2.jpg",
+            "/images/projects/MS/MS3.jpg",
+            "/images/projects/MS/MS4.jpg"
+        ]
     },
     {
         "id": 10,
-        "title": "TempoLab",
-        "description": "Test description",
-        "thumbnail": "/images/projects/thumbnails/TLthumbnail.jpg",
-        "images": []
+        "title": "Cafe Da Lat",
+        "description": "A personal client of mine requested a rebranding service, including a new logo as well as 50pcs of their staff tees with the new logo. Here’s what I mocked up for them:",
+        "thumbnail": "/images/projects/thumbnails/CDLthumbnail.jpg",
+        "images": [
+            "/images/projects/CDL/CDL1.png",
+            "/images/projects/CDL/CDL2.png"
+        ]
     },
     {
         "id": 11,
-        "title": "Beans & Croydon",
-        "description": "Test description",
-        "thumbnail": "/images/projects/thumbnails/Beansthumbnail.jpg",
-        "images": []
+        "title": "TempoLab",
+        "description": "Prototype by Tempolab at VaniteaSJ was an event that showcased and joined a few different communities in San Jose. It was a cross-collaboration between a few car brands,  a fighting game community, music artists, and of course, a boba shop.",
+        "keywords": ["Consultation", "Art Direction", "Event Coordination", "Marketing", "Content Creation",  "Photography"],
+        "thumbnail": "/images/projects/thumbnails/TLthumbnail.jpg",
+        "images": [
+            "/images/projects/TL/TL1.png",
+            "/images/projects/TL/TL2.jpg",
+            "/images/projects/TL/TL3.png"
+        ]
     }
 ]

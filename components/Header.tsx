@@ -1,5 +1,3 @@
-"use client"
-
 import React from 'react'
 import Link from 'next/link'
 import Image from "next/legacy/image"
@@ -14,7 +12,7 @@ const Header: React.FC = () => {
             <ul className="flex space-x-6">
               <li><Link href="/" className="text-gray-800 hover:text-blue-500 text-lg">Home</Link></li>
               <li><Link href="/services" className="text-gray-800 hover:text-blue-500 text-lg">Services</Link></li>
-              <li><Link href="/contact" className="text-gray-800 hover:text-blue-500 text-lg">Inquire</Link></li>
+              <li><Link href="/contact" className="text-gray-800 hover:text-blue-500 text-lg">Contact</Link></li>
             </ul>
           </div>
           <div className="container mx-auto flex justify-center items-center">

@@ -1,10 +1,8 @@
-"use client";
-//import Image from 'next/image'
-//import Link from 'next/link'
+"use client"
 import Button from '../components/Button'
-//import Modal from '../components/Modal'
 import Header from '../components/Header'
 import Gallery from '../components/Gallery'
+import Footer from '../components/Footer'
 
 export default function Page() {
   const handleClick = () => {
@@ -29,7 +27,7 @@ export default function Page() {
           </p>
 
           <p className="font-sans container flex items-center justify-center text-lg text-center mt-4">
-          "(of a person or their work, efforts, or qualities) excellent or valuable."
+          &quot;(of a person or their work, efforts, or qualities) excellent or valuable.&quot;
           </p>
           
         </section>
@@ -54,16 +52,15 @@ export default function Page() {
           Click on any of the projects for a briefing.
         </p>
       </div>
-      {/* Modal Section */}
-      
+
       {/* Gallery Section */}
+
       <Gallery />
+      
       {/* Footer Section */}
-      <footer className="bg-white text-black w-full py-2">
-        <div className="container mx-auto text-center">
-          <p>&copy; {new Date().getFullYear()} Sterling Marketing</p>
-        </div>
-      </footer>
+
+      <Footer />
+      
     </main>)
-  );
+  )
 } 
