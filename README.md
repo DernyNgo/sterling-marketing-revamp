@@ -37,3 +37,10 @@ Life is good so far <br />
 Finished Modal Functionality + Lightbox <br />
 Added all data into JSON file <br />
 Began working on Services page <br />
+
+1/2/2025 <br />
+Finished Contact Page <br />
+Finished Services Page <br />
+Modified Header to transparent styling + modified colors to match <br />
+Optimized Image loading using Nextjs's Image Component for Contact page <br />
+Changed Logo overall to transparent png background one <br />

@@ -1,27 +1,27 @@
-import React, { useState } from "react";
-import Image from "next/legacy/image";
+import React, { useState } from "react"
+import Image from "next/legacy/image"
 
 interface ModalProps {
   isOpen: boolean;
-  onClose: () => void;
+  onClose: () => void
   content: {
-    title: string;
-    description?: string;
-    keywords?: string[];
-    images: string[];
-  } | null;
+    title: string
+    description?: string
+    keywords?: string[]
+    images: string[]
+  } | null
 }
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, content }) => {
-  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null)
 
-  if (!isOpen || !content) return null;
+  if (!isOpen || !content) return null
 
   const handleBackdropClick = (e: React.MouseEvent) => {
     if (e.target === e.currentTarget) {
-      onClose();
+      onClose()
     }
-  };
+  }
 
   return (
     <div
@@ -92,8 +92,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, content }) => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Modal;
+export default Modal
 

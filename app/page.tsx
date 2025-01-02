@@ -1,4 +1,5 @@
 "use client"
+
 import Button from '../components/Button'
 import Header from '../components/Header'
 import Gallery from '../components/Gallery'
@@ -6,14 +7,14 @@ import Footer from '../components/Footer'
 
 export default function Page() {
   const handleClick = () => {
-    alert('Fuk u dawg')
+    window.location.href = "/contact"
   }
 
   return (
     // Main Container
     (<main className="flex min-h-screen flex-col items-center justify-center bg-white">
       {/* Header Component */}
-      <Header />
+      <Header transparent={false} />
       {/* First Hero Section */}
       <div className="container flex flex-row max-w-full mt-2 mb-2">
         <section className="container flex flex-col w-1/2 mt-4 mb-2 mx-12">
@@ -54,11 +55,8 @@ export default function Page() {
       </div>
 
       {/* Gallery Section */}
-
       <Gallery />
-      
       {/* Footer Section */}
-
       <Footer />
       
     </main>)
