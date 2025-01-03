@@ -73,14 +73,16 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, content }) => {
           className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-90 z-60"
           onClick={() => setLightboxImage(null)}
         >
-          <div className="relative">
-            <Image
+          <div className="relative max-w-[90vw] max-h-[90vh] flex items-center justify-center">
+            <img
               src={lightboxImage}
               alt="Lightbox Image"
-              layout="intrinsic" 
-              width={1920} 
-              height={820}
-              className="rounded-lg max-w-[90vw] max-h-[90vh]"
+              className="rounded-lg"
+              style={{
+                maxWidth: '100%', // Ensure the image doesn't exceed the container's width
+                maxHeight: '100%', // Ensure the image doesn't exceed the container's height
+                objectFit: 'contain', // Prevent distortion while maintaining aspect ratio
+              }}
             />
             <button
               className="absolute top-2 right-2 text-white hover:text-gray-400 text-xl"

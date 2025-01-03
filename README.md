@@ -48,4 +48,6 @@ Changed Logo overall to transparent png background one <br />
 1/2/2025 <br />
 Added mobile hamburger menu for links <br />
 Tidied up formatting <br />
-Finished for now <br />
+Reverted lightbox back to legacy code, image component was too strict <br />
+
+<br />
