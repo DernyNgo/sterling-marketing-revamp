@@ -44,3 +44,8 @@ Finished Services Page <br />
 Modified Header to transparent styling + modified colors to match <br />
 Optimized Image loading using Nextjs's Image Component for Contact page <br />
 Changed Logo overall to transparent png background one <br />
+
+1/2/2025 <br />
+Added mobile hamburger menu for links <br />
+Tidied up formatting <br />
+Finished for now <br />
