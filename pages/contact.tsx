@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const Contact: React.FC = () => {
   return (
-    <main className="flex flex-col h-screen text-white">
+    <main className="relative flex flex-col h-screen text-white">
       {/* Background Image */}
-      <div className="absolute w-full h-full">
+      <div className="absolute inset-0">
         <Image
           src="/images/contact_page_bg.jpg"
           alt="Contact Background"
@@ -16,14 +16,17 @@ const Contact: React.FC = () => {
           objectFit="cover"
           objectPosition="center"
           priority
+          className="sm:object-[center_top] md:object-center"
         />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col h-screen text-center">
+      <div className="relative z-10 flex flex-col h-full text-center">
         <Header transparent={true} />
-        <div className="mt-56">
-          <h2 className="text-lg font-sans mb-10">For new commissions, please contact:</h2>
+        <div className="flex flex-col justify-center items-center mt-32 sm:mt-40">
+          <h2 className="text-lg font-sans mb-5">
+            For new commissions, please contact:
+          </h2>
           <h1 className="text-3xl font-sans font-normal">
             <a
               href="mailto:info@sterlingmarketing.co"
@@ -38,4 +41,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact
+export default Contact;
