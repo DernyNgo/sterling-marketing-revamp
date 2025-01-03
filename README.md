@@ -49,5 +49,4 @@ Changed Logo overall to transparent png background one <br />
 Added mobile hamburger menu for links <br />
 Tidied up formatting <br />
 Reverted lightbox back to legacy code, image component was too strict <br />
-
-<br />
+Added Favicon and Metadata <br />
