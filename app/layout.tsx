@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import { Poppins, Esteban } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/react"
 
 // Import Google Fonts
 const poppins = Poppins({
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: LayoutProps) {
         `}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   )

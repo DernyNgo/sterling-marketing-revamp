@@ -11,6 +11,7 @@
   "dependencies": {
     "@fontsource/esteban": "^5.1.1",
     "@fontsource/inter": "^5.1.0",
+    "@vercel/analytics": "^1.4.1",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
